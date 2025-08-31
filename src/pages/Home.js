@@ -13,7 +13,7 @@ const Home = () => {
                         <Link to="/ratelist" className="ratelink">Show exchange ratelist</Link>
                     </div>
                     <div className='route'>
-                        <Link to="/ratedetail" className="ratelink">Show exchange ratelist</Link>
+                        <Link to="/ratedetail" className="ratelink">Show course details</Link>
                     </div>
                 </div>
             </div>
