@@ -11,7 +11,7 @@ const ExchangeRatelist = () => {
 
     useEffect(() => {
         const fetchRates = async () => {
-            const response = await axios.get(`${LOCAL_URL}/api?usedb=true`)
+            const response = await axios.get(`${LOCAL_URL}/api?usedb=false`)
             setRates(response.data)
             // const response = await fetch(CS_URL)
             // const data = await response.json()
